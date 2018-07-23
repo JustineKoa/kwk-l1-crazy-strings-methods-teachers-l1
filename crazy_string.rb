@@ -5,3 +5,5 @@ def crazy_strings(a,b)
   new_b = b.swapcased.gsub('s','z')
   return new_a + " " + new_b
 end
+
+crazy_strings("hi", "hello")
